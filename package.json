@@ -1,0 +1,13 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^10.1.0",
+    "electron-packager": "^15.1.0"
+  },
+  "scripts":{
+    "start":"electron ."
+  }
+}
