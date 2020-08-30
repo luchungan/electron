@@ -6,7 +6,7 @@ let win = null
 app.on('ready',()=>{
     win = new BrowserWindow({
         width:800,
-        height:200
+        height:300
     })
     win.loadURL(url.format({
         pathname:path.resolve(__dirname,'./html/index.html'),
